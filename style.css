@@ -41,3 +41,10 @@ footer {
 .mid-circle {
   fill: #000;
 }
+
+.hour-marks {
+  fill: none;
+  stroke: #000;
+  stroke-width: 9;
+  stroke-miterlimit: 10;
+}
