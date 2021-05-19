@@ -66,3 +66,16 @@ footer {
   stroke-width: 4;
   stroke-miterlimit: 10;
 }
+
+/* transparent box ensuring arms center properly */
+.sizing-box {
+  fill: none;
+}
+
+/* makes all arms rotate around the same center point */
+#hour,
+#minute,
+#second {
+  transform-origin: 300px 300px;
+  transition: transform 0.5s ease-in-out; /* a little animation */
+}
