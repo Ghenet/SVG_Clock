@@ -29,3 +29,15 @@ footer {
   width: 100%;
   height: 100%;
 }
+
+/* Clock styles */
+.circle {
+  fill: none;
+  stroke: #000;
+  stroke-width: 9;
+  stroke-miterlimit: 10;
+}
+
+.mid-circle {
+  fill: #000;
+}
